@@ -1,12 +1,14 @@
-let number = Math.floor(Math.random() = 101);
+let number = Math.floor(Math.random()*101);
 
-    function play()  {
-        let userNumber = document.getElementById("userNumber").value; MessageChannel;
+    function play(101)  {
+        let userNumber = document.getElementById "userNumber".value; 
+document.getElementById "number".value;
+MessageChannel;
         let message;
 
-        if (userNumber > number)  {
+        if userNumber > number  {
             message = "Twój numer jest za duży"
-        } else if (userNumber < number) {
+        } else if userNumber < number {
            message = "Twój numer jest za mały"
         }else {
             message = "Gratulacje, to właściwa liczba"
